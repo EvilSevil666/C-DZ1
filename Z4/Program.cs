@@ -5,7 +5,7 @@ Console.WriteLine("Введите число N: ");
 int N = int.Parse(Console.ReadLine()!);
 
 for (int x = 1; x < N; x++)
-if (a%2==0)
+if (x % 2 == 0)
 { 
  Console.Write(x + ","+" "); 
 }
